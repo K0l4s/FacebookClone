@@ -638,6 +638,7 @@ nav .right img{
     overflow: hidden;
     overflow-y: scroll;
     background: #f5f5f5;
+    position: fixed;
 }
 
 .main .right::-webkit-scrollbar{
