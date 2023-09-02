@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+body{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+.logo_and_tittle{
+    display: inline;
+    align-items: center;
+}
+.logo_and_tittle .logo{
+    width: 100px;
+}
+.login_bar{
+    display: inline;
+    align-items: center;
+    justify-self: space-between;
+}
+.login_bar .login_box{
+    width: 300px;
+    height: 350px;
+    padding: 20px 20px 0 20px;
+    background: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
