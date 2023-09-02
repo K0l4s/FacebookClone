@@ -633,12 +633,13 @@ nav .right img{
 
 /*-----right----*/
 .main .right{
-    width: 25%;
-    height: auto;
+    width: 23%;
+    height: 92vh;
     overflow: hidden;
     overflow-y: scroll;
     background: #f5f5f5;
-    position: fixed;
+    position:fixed;
+    margin-left: 1125px;
 }
 
 .main .right::-webkit-scrollbar{
