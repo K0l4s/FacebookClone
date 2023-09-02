@@ -634,7 +634,7 @@ nav .right img{
 /*-----right----*/
 .main .right{
     width: 25%;
-    height: 92vh;
+    height: auto;
     overflow: hidden;
     overflow-y: scroll;
     background: #f5f5f5;
