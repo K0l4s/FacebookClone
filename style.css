@@ -700,6 +700,7 @@ nav .right img{
 
 .main .right .friends .user:hover{
     background: #efefef;
+    cursor: pointer;
 }
 
 .main .right .friends .user img{
