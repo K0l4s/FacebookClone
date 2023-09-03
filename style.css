@@ -44,6 +44,9 @@ nav .left .search_bar i{
     color: #919191;
     margin-right: 5px;
 }
+nav .left .search_bar i:hover{
+    cursor: pointer;
+}
 
 nav .left .search_bar input{
     background: transparent;
@@ -56,7 +59,7 @@ nav .left .search_bar input{
 nav .center{
     display: flex;
     align-items: center;
-    position: relative;
+    position:relative;
     right: 45px;
     left: 45px;
 }
@@ -665,6 +668,7 @@ nav .right img{
 
 .main .right .ads {
     display: inline;
+    overflow-x: hidden;
 }
 
 .main .right .ads .qc{
@@ -672,7 +676,7 @@ nav .right img{
     align-items: center;
     margin: 10px;
     width: 100%;
-    height: auto;
+    height: 110px;
     border-radius: 15px;
 }
 
@@ -686,10 +690,11 @@ nav .right img{
     object-fit: cover;
     object-position: 100%;
     border-radius: 15px;
+    margin-left: 10px;
 }
 
 .main .right .ads .qc:hover{
-    background:#efefef;
+    background:#e3e3e3;
     cursor: pointer;
 }
 
@@ -701,7 +706,7 @@ nav .right img{
 }
 
 .main .right .friends .user:hover{
-    background: #efefef;
+    background: #e3e3e3;
     cursor: pointer;
 }
 

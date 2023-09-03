@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    position: fixed;
+    z-index: 1000;
+}
+nav .left .logo img{
+    width: 100px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}   
+
+nav .left .search_bar{
+    width: 250px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 15px;
+}
+
+nav .left .search_bar i{
+    line-height: 40px;
+    font-size: 19px;
+    color: #919191;
+    margin-right: 5px;
+}
+nav .left .search_bar i:hover{
+    cursor: pointer;
+}
+
+nav .left .search_bar input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 200px;
+}
+
+nav .center{
+    display: flex;
+    align-items: center;
+    position:relative;
+    right: 45px;
+    left: 45px;
+}
+
+nav .center i{
+    margin: 0 45px 0 45px;
+    font-size: 22px;
+}
+
+nav .center i:hover{
+    color: #45abff;
+    cursor: pointer;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+nav .right i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+nav .right img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+/*main*/
+.main{
+    display: inline;
+    margin-top: 60px;
+    background: #e3e3e3;
+}
+
+.main .top {
+    background: #fff;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+
+.main .top .cover{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    object-fit: cover;
+    object-position: center;
+}
+
+.main .top .profile_and_name{
+    display: flex;
+    align-items: center;
+}
+
+.main .top .profile_and_name .profile{
+    width: 200;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 15%;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    object-fit: cover;
+    object-position: center;
+}
+.main .top .profile_and_name .name_and_nickname{
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    margin-bottom: 30px;
+}
+.main .top .profile_and_name .name_and_nickname h2{
+   font-weight: bold;
+   font-size: 30px;
+}
+.main .top .profile_and_name .name_and_nickname p{
+    margin-left: 5px;
+    font-size: 20px;
+ }
+.main .top .profile_and_name .friends_count{
+    margin-top: 10%;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+.main .top .tool{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main .top .tool .btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main .top .tool .btn:hover{
+    background: #e3e3e3;
+}
+
+.main hr{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    color: #919191;
+    border-radius: 50%;
+}
+
+.main .left_and_center .left{
+    width: 20%;
+    height: 100%;
+    background: #fff;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    position: relative;
+    left: 0;
+    top: 0;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    padding: 10px 20px 20px 10px;
+}
+
+.main .left_and_center .left .about .text{
+    text-align: center;
+    margin:10px;
+}
+
+.main .left_and_center .left .about .btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #e3e3e3;;
+}
+
+.main .left_and_center .left .about .btn:hover{
+    background: #919191;
+}
+
+.main .left_and_center .left .about .icon_and_text{
+    display: flex;
+    padding: 5px 10px 15px 10px;
+}
+.main .left_and_center .left .about .icon_and_text p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.main .left_and_center .left .about .icon_and_text span{
+    font-weight: bold;
+}
+.main .left_and_center .left .about .icon_and_text span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#45abff;
+}
+
+.main .left_and_center .left .photo img{
+    width: 60px;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.main .left_and_center .left .photo img:hover{
+    opacity: 0.7;
+}
