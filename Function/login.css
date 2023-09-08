@@ -52,6 +52,7 @@ body{
     border-radius: 25px;
     margin: 5px 3px;
     text-align: center;
+    outline: none;
 }
 
 .login_bar .login_box .login{

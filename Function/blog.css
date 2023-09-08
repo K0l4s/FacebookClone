@@ -194,13 +194,18 @@ nav .right img{
     border-radius: 50%;
 }
 
+.main .left_and_center {
+    display: flex;
+    width: 95%;
+    margin-top: 30px;
+}
+
 .main .left_and_center .left{
     width: 20%;
     height: 100%;
     background: #fff;
     border-radius: 15px;
     margin-right: 15px;
-    margin-top: 20px;
     margin-bottom: 15px;
     margin-left: 10%;
     position: relative;
@@ -264,4 +269,58 @@ nav .right img{
 .main .left_and_center .left .photo img:hover{
     opacity: 0.7;
 }
+.main .left_and_center .center .new_post{
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+}
+.main .left_and_center .center .new_post .avatar_and_input img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style:outset;
+    border-color: #45abff;
+}
 
+.main .left_and_center .center .new_post .avatar_and_input{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main .left_and_center .center .new_post .avatar_and_input input{
+    border-radius: 40px;
+    width: 800px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px 10px 10px;
+    background: #e3e3e3;
+    border:none;
+    outline: none;
+}
+
+.main .left_and_center .center .new_post .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.main .left_and_center .center .new_post .menu .post_icon {
+    display: flex;
+    align-items: center;
+}
+.main .left_and_center .center .new_post .menu .post_icon p{
+    margin-left: 10px;
+}
+.main .left_and_center .center .new_post .menu .post_icon:hover{
+    color:#45abff;
+    cursor: pointer;
+}
