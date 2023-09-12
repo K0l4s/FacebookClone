@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quản Lý Nhiều Form</title>
+    <script>
+        function hienThiForm(formId) {
+            var form = document.getElementById(formId);
+            form.style.display = "block"; // Hiển thị form được truyền vào
+        }
+
+        function anForm(formId) {
+            var form = document.getElementById(formId);
+            form.style.display = "none"; // Ẩn form được truyền vào
+        }
+    </script>
+</head>
+<body>
+    <button onclick="hienThiForm('form1')">Hiển Thị Form 1</button>
+    <button onclick="hienThiForm('form2')">Hiển Thị Form 2</button>
+    
+    
+
+    <form id="form1" style="display: none;">
+        <p>Form1</p>
+        <label for="name1">Tên 1:</label>
+        <input type="text" id="name1" name="name1">
+        <button onclick="anForm('form1')">Ẩn Form 1</button>
+    </form>
+
+    <form id="form2" style="display: none;">
+        <!-- Nội dung của Form 2 -->
+        <label for="name2">Tên 2:</label>
+        <input type="text" id="name2" name="name2">
+        <button onclick="anForm('form2')">Ẩn Form 2</button>
+    </form>
+</body>
+</html>

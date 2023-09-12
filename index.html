@@ -7,6 +7,7 @@
     <title>Kolas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
 </head>
 <body>
     
@@ -113,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="my_post">
+            <div class="my_post" onclick="hienThiForm('createPost')">
 
                 <div class="post_top">
                     <img src="image/profile.jpg">
@@ -448,6 +449,11 @@
             </div>
         </div>
     </div>
-
+    <form id="createPost" style="display: none;" class="createPost">
+        <button class="close" onclick="anForm('createPost')">X</button>
+        <img src="image/logo.png">
+        <input type="text" placeholder="What'is on your mind?" class="content">
+        <button onclick="guiForm(event)">Gửi</button>
+    </form>
 </body>
 </html>

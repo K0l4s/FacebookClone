@@ -737,3 +737,19 @@ nav .right img{
     display: flex;
     align-items: center;
 }
+.createPost{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4abff4;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 9999;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
