@@ -827,3 +827,137 @@ nav .right img{
     z-index: 1;
     position: relative;
 }
+
+.chatbox{
+    display: flex;
+    position: fixed;
+    bottom: 0.4%;
+    right: 0.5%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 9999;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+
+.chatbox .avatar{
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    position:absolute;
+}
+
+.chatbox .tittle{
+    font-size: 15px;
+    position: absolute;
+    left: 55px;
+    top: 25px
+}
+
+.chatbox .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+    background: #c92e2e;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 50%;
+    border-style: none;
+    opacity: 95%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.chatbox hr{
+    position: relative;
+    top: 40px;
+}
+
+.chatbox .message{
+    position: relative;
+    display: inline;
+    top: 50px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 4px;
+}
+
+.chatbox .message .receive_message{
+    display: flex;
+    align-items: center;
+    top:5px
+}
+
+.chatbox .message .avatar{
+    position: relative;
+}
+
+.chatbox .message .receive_message .content{
+    background: #4abff4;
+    border-radius: 30px;
+    padding: 10px;
+    left:5px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.chatbox .message .own_message{
+    display: flex;
+    align-items: center;
+}
+
+.chatbox .message .own_message .content{
+    background: #e3e3e3;
+    border-radius: 30px;
+    padding: 10px;
+    right:5px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.chatbox .message .own_message .avatar{
+    right: 0%;
+}
+
+.chatbox .new_message{
+    position: fixed;
+    bottom:3%;
+    height: auto;
+}
+
+.chatbox .new_message input{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background: #d9d9d9;
+    outline: none;
+    border: 0;
+    padding: 0 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatbox .new_message button{
+    width: 50px;
+    position: relative;
+    height: 30px;
+    left: 80%;
+    border-style: none;
+    background: #a8eea5;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
