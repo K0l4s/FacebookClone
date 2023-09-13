@@ -14,5 +14,8 @@ function guiForm(event) {
     // Thực hiện xử lý dữ liệu ở đây (nếu cần)
 
     // Sau khi xử lý xong, bạn có thể đóng form
-    anForm('createPost');
+    anForm('createPost', {
+        title: 'text',
+        content: 'textarea'
+    });
 }
