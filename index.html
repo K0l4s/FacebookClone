@@ -450,11 +450,16 @@
         </div>
     </div>
     <form id="createPost" style="display: none;" class="createPost">
+        
+
         <button class="close" onclick="anForm('createPost')">X</button>
-        <img src="image/logo.png">
-        <input type="text" placeholder="What'is on your mind?" class="content">
-        <button onclick="guiForm(event)">Gửi</button>
+        <img class="logo" src="image/logo.png">
+        <hr>
+        <textarea name="myPost" id="textarea1" cols="auto" rows="auto">What's on your mind?</textarea>
+        <button class="send" onclick="guiForm(event)">Gửi</button>
+
+        <div class="background"></div>
+        
     </form>
-    
 </body>
 </html>
